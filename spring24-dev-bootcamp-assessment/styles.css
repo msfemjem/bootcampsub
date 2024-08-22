@@ -1,0 +1,65 @@
+/* Your Styles Here */
+/* Your Styles Here */
+@keyframes slideIn { 
+    from {
+      margin-left: 100%;
+    } 
+    to {
+      margin-left: 0%;
+      background-color: #C54657;
+      border-radius: 12px;
+      padding: 5px;
+    } 
+  }
+  
+  body{
+      text-align: center;
+       border-style: dashed;
+      border-color:#C54657;
+      border-width:medium;
+      border-radius: 12px;
+      padding: 5px;
+      background-color: #EFC3CA;
+      
+  
+  }
+  
+  
+  #pic{
+    max-height: 100px;
+    max-width: 100px;
+    border-radius:50%;
+    float: left;
+    padding: 5px;
+  }
+  
+  
+  .title{
+    font-family: Arial, Helvetica, sans-serif;
+    animation: slideIn 2s forwards; 
+  }
+  #container{
+    background-color: #F9C473;
+    border-radius: 12px; 
+    padding: 5px;
+    text-align: justify;
+    transition-duration: 0.3s;
+    
+  }
+  
+  #container:hover{
+    background-color:#A3C786;
+    transform: translateY(-5px);
+    color:#000000;
+    
+  }
+  button{
+    border-color:#C54657;
+    border-radius: 5px;
+    background-color: #DB8995;
+  }
+  .button:active {
+    background-color: #C54657;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
